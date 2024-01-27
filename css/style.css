@@ -1,0 +1,122 @@
+.chart-cal-home #wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  align-items: center;
+}
+@media only screen and (max-width: 750px) {
+  .chart-cal-home #wrapper {
+    flex-direction: column;
+  }
+}
+.chart-cal-home .calculator {
+  text-align: left;
+  width: 30%;
+}
+@media only screen and (max-width: 750px) {
+  .chart-cal-home .calculator {
+    width: 100%;
+  }
+}
+.chart-cal-home .calculator label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.chart-cal-home .calculator select,
+.chart-cal-home .calculator input[type=number] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.chart-cal-home .calculator select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url("data:image/svg+xml;utf8,<svg fill='black' height='24' width='24' xmlns='http://www.w3.org/2000/svg'><polygon points='0,0 24,0 12,20'/></svg>") no-repeat right 10px center/15px 15px;
+}
+.chart-cal-home .chart-container {
+  width: 65%;
+  margin-left: 5%;
+}
+@media only screen and (max-width: 750px) {
+  .chart-cal-home .chart-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.chart-cal-home #realTimeAPY {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.apy-cal-page .calculator {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+.apy-cal-page .input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 750px) {
+  .apy-cal-page .input-group {
+    flex-direction: column;
+  }
+}
+.apy-cal-page .input-group label,
+.apy-cal-page .input-group input {
+  flex: 1;
+}
+.apy-cal-page label {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.apy-cal-page input {
+  margin-top: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #dcdcdc !important;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+.apy-cal-page .result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 750px) {
+  .apy-cal-page .result {
+    flex-direction: column;
+  }
+}
+.apy-cal-page .result-box {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+.apy-cal-page p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
